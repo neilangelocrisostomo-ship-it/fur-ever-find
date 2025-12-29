@@ -56,7 +56,7 @@ export default function ListingDashboard() {
   const handleRemoveListing = (id) => {
     Alert.alert(
       "Remove Listing",
-      "Sigurado ka ba na gusto mong burahin ang post na ito? Hindi na ito mababalik.",
+      "Are you sure you want to remove this list?.",
       [
         { text: "Cancel", style: "cancel" },
         { 
